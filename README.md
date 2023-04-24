@@ -1,6 +1,11 @@
-# vue-project
+# A weather App
 
-This template should help get you started developing with Vue 3 in Vite.
+A user-friendly and visually appealing weather application that displays and saves weather data for multiple global cities.
+
+## Screenshots
+![windows11-light-mode](https://github.com/YOSEF-CODER/weather-app-project/blob/master/Capture1.PNG)
+![windows11-dark-mode](https://github.com/YOSEF-CODER/weather-app-project/blob/master/Capture2.PNG)
+![windows11-dark-mode](https://github.com/YOSEF-CODER/weather-app-project/blob/master/Capture3.PNG)
 
 ## Recommended IDE Setup
 
