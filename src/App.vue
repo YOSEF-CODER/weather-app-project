@@ -1,18 +1,25 @@
 <template>
-  
-  <div>
-
-
-<router-view></router-view>
+  <div
+    class="flex flex-col min-h-screen font-Roboto bg-weather-primary"
+  >
+    <SiteNavigation />
+    <RouterView>
+      
+    </RouterView>
   </div>
 </template>
 
 <script setup>
-
-import {routerView} from 'vue-router'
-
+import { RouterView } from "vue-router";
+import SiteNavigation from "./components/SiteNavigation.vue";
 </script>
 
-<style lang="scss" scoped>
+<style>
+.page-enter-active {
+  transition: 600ms ease all;
+}
 
+.page-enter-from {
+  opacity: 0;
+}
 </style>
